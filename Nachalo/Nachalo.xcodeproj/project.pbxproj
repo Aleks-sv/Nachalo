@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF47885C1BC6C3EB00B132AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47885B1BC6C3EB00B132AF /* AppDelegate.swift */; };
+		EF47885E1BC6C3EB00B132AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47885D1BC6C3EB00B132AF /* ViewController.swift */; };
+		EF4788611BC6C3EB00B132AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF47885F1BC6C3EB00B132AF /* Main.storyboard */; };
+		EF4788631BC6C3EB00B132AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4788621BC6C3EB00B132AF /* Assets.xcassets */; };
+		EF4788661BC6C3EB00B132AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4788641BC6C3EB00B132AF /* LaunchScreen.storyboard */; };
+		EF4788711BC6C3EB00B132AF /* NachaloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4788701BC6C3EB00B132AF /* NachaloTests.swift */; };
+		EF47887C1BC6C3EB00B132AF /* NachaloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47887B1BC6C3EB00B132AF /* NachaloUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF47886D1BC6C3EB00B132AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4788501BC6C3EB00B132AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4788571BC6C3EB00B132AF;
+			remoteInfo = Nachalo;
+		};
+		EF4788781BC6C3EB00B132AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4788501BC6C3EB00B132AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4788571BC6C3EB00B132AF;
+			remoteInfo = Nachalo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4788581BC6C3EB00B132AF /* Nachalo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nachalo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF47885B1BC6C3EB00B132AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF47885D1BC6C3EB00B132AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF4788601BC6C3EB00B132AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF4788621BC6C3EB00B132AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4788651BC6C3EB00B132AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF4788671BC6C3EB00B132AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF47886C1BC6C3EB00B132AF /* NachaloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NachaloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4788701BC6C3EB00B132AF /* NachaloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NachaloTests.swift; sourceTree = "<group>"; };
+		EF4788721BC6C3EB00B132AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4788771BC6C3EB00B132AF /* NachaloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NachaloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF47887B1BC6C3EB00B132AF /* NachaloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NachaloUITests.swift; sourceTree = "<group>"; };
+		EF47887D1BC6C3EB00B132AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4788551BC6C3EB00B132AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4788691BC6C3EB00B132AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4788741BC6C3EB00B132AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF47884F1BC6C3EB00B132AF = {
+			isa = PBXGroup;
+			children = (
+				EF47885A1BC6C3EB00B132AF /* Nachalo */,
+				EF47886F1BC6C3EB00B132AF /* NachaloTests */,
+				EF47887A1BC6C3EB00B132AF /* NachaloUITests */,
+				EF4788591BC6C3EB00B132AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4788591BC6C3EB00B132AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4788581BC6C3EB00B132AF /* Nachalo.app */,
+				EF47886C1BC6C3EB00B132AF /* NachaloTests.xctest */,
+				EF4788771BC6C3EB00B132AF /* NachaloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF47885A1BC6C3EB00B132AF /* Nachalo */ = {
+			isa = PBXGroup;
+			children = (
+				EF47885B1BC6C3EB00B132AF /* AppDelegate.swift */,
+				EF47885D1BC6C3EB00B132AF /* ViewController.swift */,
+				EF47885F1BC6C3EB00B132AF /* Main.storyboard */,
+				EF4788621BC6C3EB00B132AF /* Assets.xcassets */,
+				EF4788641BC6C3EB00B132AF /* LaunchScreen.storyboard */,
+				EF4788671BC6C3EB00B132AF /* Info.plist */,
+			);
+			path = Nachalo;
+			sourceTree = "<group>";
+		};
+		EF47886F1BC6C3EB00B132AF /* NachaloTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4788701BC6C3EB00B132AF /* NachaloTests.swift */,
+				EF4788721BC6C3EB00B132AF /* Info.plist */,
+			);
+			path = NachaloTests;
+			sourceTree = "<group>";
+		};
+		EF47887A1BC6C3EB00B132AF /* NachaloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF47887B1BC6C3EB00B132AF /* NachaloUITests.swift */,
+				EF47887D1BC6C3EB00B132AF /* Info.plist */,
+			);
+			path = NachaloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4788571BC6C3EB00B132AF /* Nachalo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4788801BC6C3EB00B132AF /* Build configuration list for PBXNativeTarget "Nachalo" */;
+			buildPhases = (
+				EF4788541BC6C3EB00B132AF /* Sources */,
+				EF4788551BC6C3EB00B132AF /* Frameworks */,
+				EF4788561BC6C3EB00B132AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nachalo;
+			productName = Nachalo;
+			productReference = EF4788581BC6C3EB00B132AF /* Nachalo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF47886B1BC6C3EB00B132AF /* NachaloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4788831BC6C3EB00B132AF /* Build configuration list for PBXNativeTarget "NachaloTests" */;
+			buildPhases = (
+				EF4788681BC6C3EB00B132AF /* Sources */,
+				EF4788691BC6C3EB00B132AF /* Frameworks */,
+				EF47886A1BC6C3EB00B132AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF47886E1BC6C3EB00B132AF /* PBXTargetDependency */,
+			);
+			name = NachaloTests;
+			productName = NachaloTests;
+			productReference = EF47886C1BC6C3EB00B132AF /* NachaloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF4788761BC6C3EB00B132AF /* NachaloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4788861BC6C3EB00B132AF /* Build configuration list for PBXNativeTarget "NachaloUITests" */;
+			buildPhases = (
+				EF4788731BC6C3EB00B132AF /* Sources */,
+				EF4788741BC6C3EB00B132AF /* Frameworks */,
+				EF4788751BC6C3EB00B132AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4788791BC6C3EB00B132AF /* PBXTargetDependency */,
+			);
+			name = NachaloUITests;
+			productName = NachaloUITests;
+			productReference = EF4788771BC6C3EB00B132AF /* NachaloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4788501BC6C3EB00B132AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iStudent;
+				TargetAttributes = {
+					EF4788571BC6C3EB00B132AF = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					EF47886B1BC6C3EB00B132AF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EF4788571BC6C3EB00B132AF;
+					};
+					EF4788761BC6C3EB00B132AF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EF4788571BC6C3EB00B132AF;
+					};
+				};
+			};
+			buildConfigurationList = EF4788531BC6C3EB00B132AF /* Build configuration list for PBXProject "Nachalo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF47884F1BC6C3EB00B132AF;
+			productRefGroup = EF4788591BC6C3EB00B132AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4788571BC6C3EB00B132AF /* Nachalo */,
+				EF47886B1BC6C3EB00B132AF /* NachaloTests */,
+				EF4788761BC6C3EB00B132AF /* NachaloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4788561BC6C3EB00B132AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4788661BC6C3EB00B132AF /* LaunchScreen.storyboard in Resources */,
+				EF4788631BC6C3EB00B132AF /* Assets.xcassets in Resources */,
+				EF4788611BC6C3EB00B132AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF47886A1BC6C3EB00B132AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4788751BC6C3EB00B132AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4788541BC6C3EB00B132AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF47885E1BC6C3EB00B132AF /* ViewController.swift in Sources */,
+				EF47885C1BC6C3EB00B132AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4788681BC6C3EB00B132AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4788711BC6C3EB00B132AF /* NachaloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4788731BC6C3EB00B132AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF47887C1BC6C3EB00B132AF /* NachaloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF47886E1BC6C3EB00B132AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4788571BC6C3EB00B132AF /* Nachalo */;
+			targetProxy = EF47886D1BC6C3EB00B132AF /* PBXContainerItemProxy */;
+		};
+		EF4788791BC6C3EB00B132AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4788571BC6C3EB00B132AF /* Nachalo */;
+			targetProxy = EF4788781BC6C3EB00B132AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF47885F1BC6C3EB00B132AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4788601BC6C3EB00B132AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF4788641BC6C3EB00B132AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4788651BC6C3EB00B132AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF47887E1BC6C3EB00B132AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF47887F1BC6C3EB00B132AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4788811BC6C3EB00B132AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nachalo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = My.Nachalo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF4788821BC6C3EB00B132AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nachalo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = My.Nachalo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF4788841BC6C3EB00B132AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NachaloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = My.NachaloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nachalo.app/Nachalo";
+			};
+			name = Debug;
+		};
+		EF4788851BC6C3EB00B132AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NachaloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = My.NachaloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nachalo.app/Nachalo";
+			};
+			name = Release;
+		};
+		EF4788871BC6C3EB00B132AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NachaloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = My.NachaloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nachalo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF4788881BC6C3EB00B132AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NachaloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = My.NachaloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nachalo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4788531BC6C3EB00B132AF /* Build configuration list for PBXProject "Nachalo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF47887E1BC6C3EB00B132AF /* Debug */,
+				EF47887F1BC6C3EB00B132AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4788801BC6C3EB00B132AF /* Build configuration list for PBXNativeTarget "Nachalo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4788811BC6C3EB00B132AF /* Debug */,
+				EF4788821BC6C3EB00B132AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF4788831BC6C3EB00B132AF /* Build configuration list for PBXNativeTarget "NachaloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4788841BC6C3EB00B132AF /* Debug */,
+				EF4788851BC6C3EB00B132AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF4788861BC6C3EB00B132AF /* Build configuration list for PBXNativeTarget "NachaloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4788871BC6C3EB00B132AF /* Debug */,
+				EF4788881BC6C3EB00B132AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4788501BC6C3EB00B132AF /* Project object */;
+}
